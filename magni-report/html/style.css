@@ -1,0 +1,288 @@
+body {
+    overflow: hidden;
+    display: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald' !important;
+}
+
+.container {
+    position: absolute;
+    width: 50%;
+    height: 82%;
+    background-color: #464646;
+    left: 40%;
+    top: 6.4%;
+    border-radius: 1%;
+}
+
+.images{
+    position: absolute;
+    width: 45%;
+    height: 99.9%;
+    background-color: #464646;
+    left: -50%;
+    border-radius: 1%;
+}
+
+.image{
+    position: absolute;
+    border-style: solid;
+    top: 15%;
+    width: 80%;
+    height: 32%;
+    left: 8%;
+    color: #393939;
+    background-color: #3a3a3a;
+}
+
+.image2{
+    position: absolute;
+    border-style: solid;
+    top: 51%;
+    width: 80%;
+    height: 32%;
+    left: 8%;
+    color: #393939;
+    background-color: #3a3a3a;
+}
+
+#img1{
+    position: relative;
+    width: 99.6%;
+    height: 99.5%;
+    border-radius: 1px;
+}
+
+.dot {
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    background-color: #ff4a4a;
+    border-radius: 50%;
+    display: inline-block;
+    left: 89%;
+    top: 2%;
+}
+
+#img2{
+    position: absolute;
+    width: 99.6%;
+    height: 99.5%;
+    border-radius: 1px;
+}
+
+#image1delete{
+    position: absolute;
+    top: -6.7%;
+    width: 23%;
+    height: 35%;
+    font-size: 15px;
+    left: 92.3%;
+    color: rgb(255, 255, 255);
+}
+
+#image2delete{
+    position: absolute;
+    top: -7%;
+    width: 23%;
+    height: 35%;
+    font-size: 15px;
+    left: 92.3%;
+    color: rgb(255, 255, 255);
+}
+
+#textimages{
+    position: relative;
+    top: -16%;
+    left: 5%;
+    font-size: 35px;
+    color: white;
+}
+
+#textreport {
+    position: absolute;
+    top: -3%;
+    left: 3%;
+    font-size: 35px;
+    color: white;
+}
+
+#typetext{
+    position: absolute;
+    left: 18%;
+    top: 14%;
+    font-size: 30px;
+    color: white; 
+}
+
+#titletext{
+    position: absolute;
+    left: 17.5%;
+    top: 31.5%;
+    font-size: 30px;
+    color: white; 
+}
+
+#desctext{
+    position: absolute;
+    top: 44.9%;
+    left: 4%;
+    font-size: 30px;
+    color: white; 
+}
+
+.black1{
+    position: relative;
+    width: 100%;
+    height: 13%;
+    background-color: #393939;
+}
+
+.black2{
+    position: fixed;
+    width: 22.5%;
+    height: 10.6%;
+    top: 78.1%;
+    background-color: #393939;
+}
+
+.black3{
+    position: fixed;
+    width: 50%;
+    height: 10.6%;
+    background-color: #393939;
+}
+
+.black4{
+    position: fixed;
+    width: 50%;
+    height: 10.6%;
+    top: 78%;
+    background-color: #393939;
+}
+
+#screenshotlabel {
+    position: absolute;
+    background-color: #78f160; 
+    color: white;
+    left: 20.5%;
+    top: 91%;
+    width: 60%;
+    height: 6%;
+    text-align: center;
+    border-radius: 2px;
+    border: 0;
+    transition: background-color 0.5s;
+    font-weight: 800;
+}
+
+select {
+    position: relative;
+    width: 65%;
+    height: 9%;
+    left: 28%;
+    top: 15vh;
+    padding: 16px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    color: white;
+    background-color: #3a3a3a;
+    outline: none;
+}
+
+#report-name {
+    position: absolute;
+    left: 28%;
+    top: 36%;
+    width: 65%;
+    height: 9%;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid rgb(92, 92, 92);
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #3a3a3a;
+}
+
+#report-data {
+    position: absolute;
+    left: 28%;
+    top: 51%;
+    width: 65%;
+    height: 200px;
+    border-radius: 2px;
+    border: 1px solid rgb(92, 92, 92);
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #3a3a3a;
+}
+
+#report-cancel {
+    position: absolute;
+    background-color: #ff4444; 
+    color: white;
+    left: 63%;
+    top: 91.9%;
+    width: 14%;
+    height: 4.1%;
+    text-align: center;
+    border-radius: 2px;
+    border: 0;
+    font-weight: 800;
+}
+
+#report-submit {
+    position: absolute;
+    background-color: #78f160; 
+    color: white;
+    left: 79%;
+    top: 91.9%;
+    width: 14%;
+    height: 4.1%;
+    text-align: center;
+    border-radius: 2px;
+    border: 0;
+    transition: background-color 0.5s;
+    font-weight: 800;
+}
+
+*::placeholder {
+    text-align: center;
+    color: rgb(167, 167, 167);
+}
+
+
+#text {
+    position: absolute;
+    min-width: 30%;
+    left: 68%;
+    top: 88%;
+    font-size: 20px;
+    display: none;
+    text-align: center;
+    border-style: solid;
+    padding:5px;
+    background-color: rgb(0, 136, 255); 
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    border: 0;
+}
+
+textarea {
+    resize: none;
+    font-family: 'Oswald';
+}
+
+label, p,div,input {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-family: 'Oswald';
+}

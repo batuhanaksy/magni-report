@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script src="./script.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,600&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+
+            <div class="images">
+				
+				<div class="black1"></div>
+				<p id="textimages">IMAGES</p>
+				<div class="black2"></div>
+
+				<div class="image">
+					<img id ="img1" src="" alt="" name="img1">
+					<span class="dot" id="dot1"></span>
+					<p id="image1delete">X</p>
+				</div>
+
+				<div class="image2">
+					<img id ="img2" src="" alt="">
+					<span class="dot" id="dot2"></span>
+					<p id="image2delete">X</p>
+				</div>
+				
+			    <div class="screenshot">
+				   <button type="screenshot" id="screenshotlabel"><i class="fas fa-camera"></i>&nbsp;TAKE SCREENSHOT</button>
+		    	</div>
+
+			</div>
+
+			<div class="black3"></div>
+			<p id="textreport">REPORT</p>
+			<div class="black4"></div>
+			
+			<p id="typetext">TYPE</p>
+			<select name="report">
+				<option value="Bug">Bug</option>
+				<option value="Suggestion">Suggestion</option>
+				<option value="Compliment">Compliment</option>
+			</select>
+
+
+			<p id="titletext">TITLE</p>
+			<p id="desctext">DESCRIPTION</p>
+			<input type="text" cols="80" rows="10" name="report-name" id="report-name"">
+		    <textarea id="report-data" name="report-data"></textarea>
+
+			<button type="submit" id="report-submit"><i class="fas fa-envelope"></i> SUBMIT</button>
+			<button type="cancel" id="report-cancel">X CANCEL</button>
+
+		</div>
+	</body>
+</html>
